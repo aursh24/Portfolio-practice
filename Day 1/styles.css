@@ -1,0 +1,40 @@
+.btn:hover{
+    background-color: brown;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    transition: all linear 1s;
+
+}
+
+@keyframes changeBg{   
+    0%{
+        background-color: royalblue;
+        transform: rotate(45deg);
+    }50%{
+        background-color: rgb(249, 97, 97);
+        transform: rotate(180deg);
+    }
+    100%{
+        background-color: yellow;
+        transform: rotate(360deg);
+    }
+    50%{
+        background-color: rgb(249, 97, 97);
+        transform: rotate(180deg);
+    }0%{
+        background-color: yellow;
+        transform: rotate(45deg);
+    }
+}
+
+
+.mydiv{
+    width: 100px;
+    height: 100px;
+    background-color: royalblue;
+    /* animation-name: changeBg; */
+    /* animation-duration: 5s; */
+    /* animation-iteration-count: infinite; */
+    
+}
